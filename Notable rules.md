@@ -2,8 +2,11 @@
 This file documents all the rules in STIG compliance that need to be noted for reasons like how inhibitive they can be to end-usage of the device. This document will be important for creating a variety of different scripts in the future for STIG configurations.
 # Possibly inhibitive rules
 Rule SV-257781r991589 (Graphical display manager)
+
 This rule can be inhibitive because sometimes it's important to have GUI.
+
 Rule SV-257792r1184289 (Virtual System Calls)
+
 In unintentionally skimming rules, I think I might've misread this as disabling VOIP. However, reading what this rule does, I feel like there is a chance of this being inhibitive, therefore it is going in this list. Update: even the STIG document seems to imply that this could be an inhibitive rule to follow with 0 contextual regard.
 
 # rules that might cause unecessary performance loss
