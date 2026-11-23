@@ -1,0 +1,5 @@
+# introduction
+This file documents all the rules in STIG compliance that need to be noted for reasons like how inhibitive they can be to end-usage of the device. This document will be important for creating a variety of different scripts in the future for STIG configurations.
+# Possibly inhibitive rules
+Rule SV-257781r991589 (Graphical display manager)
+This rule can be inhibitive because sometimes it's important to have GUI.
