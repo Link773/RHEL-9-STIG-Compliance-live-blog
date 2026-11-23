@@ -11,4 +11,5 @@ In unintentionally skimming rules, I think I might've misread this as disabling 
 
 # rules that might cause unecessary performance loss
 Rule SV-257795r1044845 (Page Table Isolation)
+
 This guideline was created because of a massive vulnerability in how older processors worked. Allegedly this setting might be unneeded on newer hardware, and in those cases appears to only create additional overhead. I would need to perform more resarch into it on the side.
